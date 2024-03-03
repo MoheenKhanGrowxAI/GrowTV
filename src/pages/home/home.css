@@ -1,0 +1,132 @@
+.home-page.body-wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  min-height: calc(100vh);
+  margin-top: -78px;
+  padding-top: 140px;
+}
+
+.home-page .banner-content .heading h1 {
+  font-size: 120px;
+  font-weight: 900;
+  line-height: 0.8;
+}
+
+.home-page .banner-content .heading h1.hgxtv {
+  color: #fff;
+}
+
+.home-page .banner-content .heading h1.podcast {
+  color: #118bfb;
+}
+
+.home-page .banner-content p {
+  color: #ffffffb6;
+  font-size: 20px;
+}
+
+.home-page .recent-videos-wrapper {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.home-page .recent-videos-wrapper h2 {
+  color: #118bfb;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.home-page .recent-videos-wrapper .videos-scroll-section {
+  display: flex;
+  border-radius: 16px;
+  border: 1px solid #118bfb;
+  padding: 18px 20px;
+  overflow: auto;
+  backdrop-filter: blur(20px);
+}
+
+.home-page .recent-videos-wrapper .videos-scroll-section .video-section {
+  background-color: #fff;
+  width: 380px;
+  min-width: 380px;
+  margin-right: 20px;
+}
+.home-page
+  .recent-videos-wrapper
+  .videos-scroll-section
+  .video-section:last-child {
+  margin-right: 0px;
+}
+.home-page
+  .recent-videos-wrapper
+  .videos-scroll-section
+  .video-section
+  .video-thumbnail {
+  position: relative;
+  height: 220px;
+}
+.home-page
+  .recent-videos-wrapper
+  .videos-scroll-section
+  .video-section
+  img.thumbnail {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.home-page
+  .recent-videos-wrapper
+  .videos-scroll-section
+  .video-section
+  .play-btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.home-page
+  .recent-videos-wrapper
+  .videos-scroll-section
+  .video-section
+  .video-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  height: 50px;
+}
+.home-page
+  .recent-videos-wrapper
+  .videos-scroll-section
+  .video-section
+  .video-info
+  p {
+  color: #080140;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .home-page .banner-content .heading h1 {
+    font-size: 60px;
+  }
+  .home-page .banner-content p {
+    font-size: 14px;
+  }
+  .home-page .recent-videos-wrapper {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .home-page .recent-videos-wrapper .videos-scroll-section {
+    padding: 10px;
+  }
+  .home-page .recent-videos-wrapper .videos-scroll-section .video-section {
+    width: 220px;
+  }
+  .home-page .recent-videos-wrapper .videos-scroll-section .video-section img {
+    height: 180px;
+    object-fit: cover;
+  }
+}

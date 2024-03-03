@@ -1,0 +1,13 @@
+.modal-body {
+  padding: 0px;
+}
+.modal-body iframe {
+  width: 100%;
+}
+.modal-backdrop {
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+}
+.modal-backdrop.show {
+  opacity: 1 !important;
+}
