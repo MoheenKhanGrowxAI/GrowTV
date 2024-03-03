@@ -83,6 +83,7 @@ function Teams() {
                   src="./images/jerry.jpg"
                   className="img-fluid"
                 />
+                
               </div>
             </div>
           </div>
@@ -137,7 +138,7 @@ function Teams() {
         </Container>
       </div>
     </motion.div>
-    
+
   );
 }
 
